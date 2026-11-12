@@ -1,0 +1,86 @@
+{
+  "original_rows": 508,
+  "cleaned_rows": 500,
+  "rows_removed_exact_duplicates": 8,
+  "remaining_duplicate_order_ids": 0,
+  "original_columns": 14,
+  "cleaned_columns": 30,
+  "missing_expected_columns": [],
+  "malformed_numeric_values": {
+    "Customer_Age": 0,
+    "Quantity": 0,
+    "Unit_Price_INR": 0,
+    "Discount_Percent": 0,
+    "Customer_Rating": 0,
+    "Delivery_Days": 0
+  },
+  "invalid_values_set_missing": {
+    "Customer_Age": 3,
+    "Quantity": 4,
+    "Unit_Price_INR": 0,
+    "Discount_Percent": 0,
+    "Customer_Rating": 4,
+    "Delivery_Days": 0
+  },
+  "iqr_outlier_counts": {
+    "Quantity": 1,
+    "Unit_Price_INR": 44,
+    "Gross_Sales": 29,
+    "Net_Order_Value": 26,
+    "Delivery_Days": 0
+  },
+  "iqr_bounds": {
+    "Quantity": {
+      "lower": -1.0,
+      "upper": 7.0
+    },
+    "Unit_Price_INR": {
+      "lower": -27681.992499999997,
+      "upper": 48670.667499999996
+    },
+    "Gross_Sales": {
+      "lower": -91231.6925,
+      "upper": 158864.4075
+    },
+    "Net_Order_Value": {
+      "lower": -82746.79349999999,
+      "upper": 143881.64249999996
+    },
+    "Delivery_Days": {
+      "lower": -4.5,
+      "upper": 15.5
+    }
+  },
+  "missing_values_after_cleaning": {
+    "Order_ID": 0,
+    "Order_Date": 0,
+    "Customer_Age": 37,
+    "Gender": 20,
+    "City": 30,
+    "Product": 0,
+    "Category": 0,
+    "Quantity": 4,
+    "Unit_Price_INR": 0,
+    "Discount_Percent": 25,
+    "Payment_Method": 14,
+    "Customer_Rating": 44,
+    "Delivery_Days": 20,
+    "Returned": 0,
+    "Order_Year": 0,
+    "Order_Month": 0,
+    "Month_Name": 0,
+    "Order_Day": 0,
+    "Year_Month": 0,
+    "Customer_Age_Group": 37,
+    "Gross_Sales": 4,
+    "Discount_Amount": 29,
+    "Net_Order_Value": 29,
+    "Is_Returned": 0,
+    "Estimated_Net_Sales_After_Returns": 24,
+    "Quantity_Outlier_IQR": 0,
+    "Unit_Price_INR_Outlier_IQR": 0,
+    "Gross_Sales_Outlier_IQR": 0,
+    "Net_Order_Value_Outlier_IQR": 0,
+    "Delivery_Days_Outlier_IQR": 0
+  }
+}

@@ -1,0 +1,6 @@
+﻿Column,Outlier_Count,Lower_Bound,Upper_Bound
+Quantity,1,-1.0,7.0
+Unit_Price_INR,44,-27681.992499999997,48670.667499999996
+Gross_Sales,29,-91231.6925,158864.4075
+Net_Order_Value,26,-82746.79349999999,143881.64249999996
+Delivery_Days,0,-4.5,15.5
